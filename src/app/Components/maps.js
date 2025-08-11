@@ -1,7 +1,7 @@
 // client/src/Components/Maps.js
 
 import React from "react";
-import "../css/maps.css";
+import "../Css/maps.css";
 
 const locations = [
   {

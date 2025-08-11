@@ -2,9 +2,9 @@
 
 import React from 'react';
 import BannerContaine from "../Components/BannerContaine";
-import TravelsServices from '../components/TravelsServices';
-import FeaturedDestinations from '../components/FeaturedDestinations';
-import WhyChooseSection from '../components/WhyChooseSection';
+import TravelsServices from '../Components/TravelsServices';
+import FeaturedDestinations from '../Components/FeaturedDestinations';
+import WhyChooseSection from '../Components/WhyChooseSection';
 import StayBanner from "../Components/StayBanner";
 import Footer from "../Components/Footer";
 

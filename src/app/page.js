@@ -9,7 +9,7 @@ import "../app/Css/HeroSection.css";
 import HotelSection from "../app/Components/HotelSection";
 import OfferSection from "../app/Components/OfferSection";
 import CabServicesSection from "../app/Components/CabServicesSection";
-import WhyChooseSection from "../app/components/WhyChooseSection";
+import WhyChooseSection from "../app/Components/WhyChooseSection";
 import TestimonialSection from "../app/Components/TestimonialSection";
 import StayBanner from "../app/Components/StayBanner";
 import Footer from "../app/Components/Footer";

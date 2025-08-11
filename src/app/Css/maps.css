@@ -1,0 +1,40 @@
+/* client/src/css/maps.css */
+
+.map-section {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.map-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.map-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.map-card {
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.map-card h5 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.map-card:hover {
+  transform: scale(1.03);
+}

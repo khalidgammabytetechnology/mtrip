@@ -1,0 +1,178 @@
+/* Modal Style */
+.booking-popup-modal .modal-content {
+  border-radius: 12px;
+  border: none;
+  max-width: 450px;
+  margin: auto;
+}
+
+.booking-popup-modal .modal-body {
+  position: relative;
+  padding-top: 30px;
+}
+
+.get-in-touch-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #0c1e35;
+}
+
+.get-in-touch-title .text-orange {
+  color: #fd7e14;
+  font-family: 'Yesteryear', cursive;
+}
+
+.custom-input {
+  padding-left: 40px;
+}
+
+.form-icon-inside {
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888; 
+  font-size: 1.2rem;
+}
+
+.send-btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd7e14;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.send-btn:hover {
+  background-color: #e76f0a;
+}
+
+.close-btn {
+  position: absolute;
+  top: -10%;   
+  right: 45%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  z-index: 1050; 
+}
+
+.close-btn:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.close-btn:focus {
+  outline: none;
+}
+
+/* Booking form styles */
+.custom-input {
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  transition: border-color 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #ff6600;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 102, 0, 0.2);
+}
+
+.form-icon-inside {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 16px;
+}
+
+/* Send button */
+.send-btn {
+  background-color: #ff6600;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.send-btn:hover {
+  background-color: #e55b00;
+}
+
+.close-btn {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.get-in-touch-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.text-orange {
+  color: #ff6600;
+}
+
+/* Alert Styles */
+.custom-alert-box {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 16px 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  text-align: center;
+  z-index: 1050;
+  animation: fadeInOut 3s ease-in-out;
+  max-width: 90%;
+  color: #fff;
+}
+
+.custom-alert-box.success {
+  background-color: #ffff;
+}
+
+.custom-alert-box.error {
+  background-color: #ffff;
+  color: red;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+}
+

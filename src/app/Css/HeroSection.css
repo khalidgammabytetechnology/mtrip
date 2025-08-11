@@ -1,0 +1,658 @@
+@font-face {
+  font-family: 'Yesteryear';
+  src: url('../Fonts//Yesteryear-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero-overlay {
+  background: #1301015e !important;
+  z-index: -1;      
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .hero-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.expore-text {
+  color: #ff7d24;
+  font-family: 'Yesteryear', cursive;
+  font-size: 25px;
+}
+
+.brand-text {
+  color: #ff7d24;
+  font-style: italic;
+  font-family: 'Yesteryear', cursive;
+}
+.bookStay-btn {
+  background-color: #ff7d24;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.expore-btn {
+  background: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .hero-section p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+/* About Section */
+
+@keyframes bounceUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounceDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+@keyframes bounceSide {
+  0%, 100% {
+    transform: rotate(-90deg) translateX(0);
+  }
+  50% {
+    transform: rotate(-90deg) translateX(5px);
+  }
+}
+
+
+.about-section .image-stack {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}
+
+.about-section .main-img {
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+  animation: bounceUp 3s ease-in-out infinite;
+}
+
+.about-section .overlay-img {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  z-index: 0;
+  animation: bounceDown 3s ease-in-out infinite;
+}
+
+.experience-box {
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-section .ribbon {
+  position: absolute;
+  top: 85px;
+  left: -87px;
+  transform: rotate(-90deg);
+  background-color: #ff7d24;
+  color: white;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px 5px 0 0;
+  font-size: 12px;
+    animation: bounceSide 3s ease-in-out infinite;
+
+}
+.experience-num {
+  color: #ff7d24;
+  font-size: 25px;
+  font-weight: 800;
+}
+.text-orange {
+  color: #ff7d24;
+}
+.about-title {
+  font-size: 40px;
+  color: #000;
+  line-height: 100%;
+  font-weight: 500;
+}
+.about-title-span {
+  font-size: 40px;
+  color: #ff7d24;
+  line-height: 100%;
+  font-weight: 500;
+}
+.about-des {
+  color: #4f545a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner-vector-img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 767px) {
+
+  .about-section .main-img {
+    animation: none;
+  }
+  
+  .banner-vector-img {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-section .overlay-img {
+    display: none;
+  }
+
+  .about-section .ribbon {
+    left: 0;
+    transform: none;
+    top: -25px;
+    text-align: center;
+    animation: none;
+  }
+
+  .about-section .experience-box {
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 576px) {
+  .experience-box {
+    font-size: 0.7rem !important;
+  }
+}
+
+
+/* Hotel Section */
+
+.short-card {
+  height: 380px;
+}
+
+.short-card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.hotel-bg-overlay{
+  background-color: #FF7D241A;
+  z-index: -1;
+  border-radius: 50px 50px 0px 0px;
+  padding-bottom: 50px;
+}
+.hotel-title {
+  color: #ff7d24;
+  font-size: 25px;
+  font-weight: 500;
+}
+.hotel-subTitle {
+  font-size: 40px;
+  font-weight: 600;
+}
+.hotel-spanTitle {
+  color: #ff7d24;
+  font-size: 40px;
+  font-weight: 600;
+}
+.hotel-lable {
+  background-color: #ff7d24;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.hotel-location {
+  color: #ff7d24;
+}
+.hotel-days {
+  color: #ff7d24;
+}
+.hotel-guests {
+  color: #ff7d24;
+}
+.hotel-price{
+  color: #ff7d24;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn-book{
+  background-color: #ff7d24;
+  font-size: 12px;
+  font-weight: 500;
+  width: 150px;
+  padding: 5px;
+  border: none;
+  margin-bottom: 30px;
+}
+.btn-view-all{
+  background-color: #ff7d24;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .short-card {
+    height: auto;
+  }
+}
+
+/* Offer section */
+
+.text-orange {
+  color: #f37023;
+}
+
+.special-font {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.5rem;
+}
+
+
+
+.offer-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.offer-image {
+  transition: all 0.4s ease;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.offer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.offer-card:hover .offer-overlay {
+  opacity: 1;
+}
+
+.offer-card:hover .offer-image {
+  filter: brightness(70%); 
+  transform: scale(1.05);
+}
+
+
+.price-badge {
+  bottom: 20px;
+  left: 20px;
+  background-color: #f37023;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+  .offer-card {
+    min-height: 350px;
+  }
+}
+
+
+/* cab services section */
+
+.cab-service{
+  background-color: #acacac33;
+}
+.cab-title{
+  color: #f97316;
+  text-align: left;
+}
+.cab-subTitle{
+  text-align: left;
+}
+.car-location{
+  font-size: 20px;
+  margin-top: -20px;
+}
+.car-type{
+  color: #f97316;
+  margin-top: 10px;
+}
+.city{
+  text-align: left;
+  margin-top: -5px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.car-price{
+  color: #f97316;
+  margin-top: 10px;
+}
+
+.car-btnBook {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.btn-orange:hover {
+  background-color: #e8630a;
+  color: white;
+}
+
+
+
+/* Why choose Section */
+
+.choose-right-txt{
+  text-align: left;
+}
+.choose-img{
+  border-radius: 20px 20px 20px 20px;
+}
+
+.diamond-badge {
+  width: 120px;
+  height: 120px;
+  transform: rotate(45deg);
+  border-radius: 20px;
+  font-family: 'Dancing Script', cursive;
+  background-color: #f37023;
+}
+
+.badge-text {
+  transform: rotate(-45deg);
+  font-size: 1.5rem;
+  color: white;
+  width: 100px;
+}
+
+.choose-img-wrapper {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .choose-img-wrapper {
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+
+  .choose-img {
+    height: 50vh !important; 
+    border-radius: 10px;
+  }
+  .diamond-badge{
+    margin-left: 30px;
+  }
+  .choose-right-txt{
+    margin-left: 30px;
+  }
+}
+
+
+
+/* Testimonials Section */
+
+.testimonial-main{
+  background-color: #acacac33;
+ padding-bottom: 40px;
+}
+.testimonial-card{
+  border-radius: 0px;
+  width: 600px;
+}
+.text-orange {
+  color: #f97316;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #e0e0e0;
+  border: 2px solid transparent;
+}
+
+.dot.active {
+  background-color: #f97316; 
+  border: 2px solid #f97316; 
+}
+
+.dot:hover {
+  background-color: #f97316;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #d6d6d6;
+  opacity: 1;
+  border: none;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.carousel-indicators .active {
+  background-color: #ff7b29;
+  width: 10px;
+  height: 10px;
+}
+
+
+/* Stay Banner */
+
+.stay-banner {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.stay-banner-image {
+  z-index: -1;
+}
+
+.stay-banner .overlay {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.stay-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+.stay-title{
+  font-size: 40px;
+  font-weight: 700;
+}
+.stay-des{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.stay-Bookbtn {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px 30px;
+}
+
+
+/* Footer Section */
+
+.sub-text{
+  color: rgba(79, 84, 90, 1);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.custom-alert-box {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  color: #333;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Segoe UI", sans-serif;
+  border: 1px solid #ddd;
+  animation: fadeInScale 0.3s ease-out;
+}
+
+.custom-alert-box strong {
+  display: block;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.custom-alert-box button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #ff702a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-alert-box button:hover {
+  background-color: #e65b1a;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+
+
+.contact-icon{
+  color: #f37023;
+}
+.input-group{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.submit-btn{
+  background-color: #f37023;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

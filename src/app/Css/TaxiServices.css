@@ -1,0 +1,112 @@
+/* cab services section */
+
+.cab-services{
+    background-color: #fff;
+  }
+  .cab-title{
+    color: #f97316;
+    text-align: left;
+  }
+  .cab-subTitle{
+    text-align: left;
+  }
+  .services-des p{
+    text-align: left;
+    font-size: 16px;
+    color: #4F545A;
+  }
+  .taxi-card {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .taxi-card .card-body {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: #fff;
+    margin-top: -20px;
+    height: 220px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+  }
+  .carOption-title{
+    color: #081E2A;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .CarFrom-txt{
+    color: #83827F;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .btn-orange {
+    background-color: #FF7D24;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 0px;
+  }
+  
+  .btn-orange:hover {
+    background-color: #e86c00;
+  }
+  
+  .text-orange {
+    color: #FF7D24;
+  }
+  
+
+  /* Why choose section */
+
+  .choose-texi{
+    background-color: #00000008;
+  }
+  .choose-right-txt{
+    text-align: left;
+  }
+  .choose-img{
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  .diamond-badge {
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+    border-radius: 20px;
+    font-family: 'Dancing Script', cursive;
+    background-color: #f37023;
+  }
+  
+  .badge-text {
+    transform: rotate(-45deg);
+    font-size: 1.5rem;
+    color: white;
+    width: 100px;
+  }
+  
+  .choose-img-wrapper {
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .choose-img-wrapper {
+      padding-left: 20px;
+      padding-right: 15px;
+    }
+  
+    .choose-img {
+      height: 50vh !important;
+      border-radius: 10px;
+    }
+    .diamond-badge{
+      margin-left: 30px;
+    }
+    .choose-right-txt{
+      margin-left: 30px;
+    }
+  }
+  
+  
+  
+  

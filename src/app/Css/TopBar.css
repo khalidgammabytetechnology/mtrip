@@ -1,0 +1,22 @@
+
+.top-main {
+    background-color: #f97316; 
+    font-size: 0.75rem;
+    padding: 30px 50px;
+  }
+  
+  .top-icon {
+    color: #f97316;
+  }
+  
+  .top-icon:hover {
+    color: #f97316; 
+  }
+  
+  @media (max-width:980) {
+    .top-main{
+        display: none !important;
+    }
+  }
+
+  

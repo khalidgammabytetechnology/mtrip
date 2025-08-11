@@ -1,0 +1,216 @@
+.travels-services-title{
+    color: #f97316;
+    text-align: left;
+}
+.travels-services-description{
+    text-align: left;
+    font-size: 14px;
+}
+.travel-service-card {
+    border: none;
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    color: #212529;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .travel-service-card:hover {
+    background-color: #ff7a00;
+    color: #fff;
+    transform: translateY(-4px);
+  }
+  
+  .travel-service-card:hover .travel-service-card__desc,
+  .travel-service-card:hover .travel-service-card__title {
+    color: #fff !important;
+  }
+  
+  .travel-service-card__icon img {
+    transition: filter 0.3s ease;
+  }
+  
+  .travel-service-card:hover .travel-service-card__icon img {
+    filter: brightness(0) invert(1);
+  }
+  
+  .travel-service-card__title {
+    font-size: 16px;
+  }
+  
+  .travel-service-card__desc {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+
+
+  /* Feature Destination Section */
+
+  .text-orange {
+    color: #f97316;
+  }
+  
+  .bg-orange {
+    background-color: #f97316;
+  }
+  
+  .btn-orange {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .btn-orange:hover {
+    background-color: #d65f0f;
+  }
+  
+  .destination-image {
+    width: 135px !important;
+    height: 150px !important;
+    object-fit: cover;
+    margin: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .destination-image {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .destination-card {
+      background: none;
+    }
+  }
+  
+ /* hide the default bootstrap masks */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+
+.custom-arrow-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;              
+  height: 36px;
+  background-color: #ff7d24;
+  border-radius: 50%;       
+  color: #ffffff;           
+  font-size: 1rem;        
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  padding: 0;
+}
+
+
+.carousel-control-prev {
+  left: 5%;
+}
+.carousel-control-next {
+  right: 5%;
+}
+
+
+
+.travel-partner-section {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.travel-partner-inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 12px;
+  border: 1px solid #f97316;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.partner-logo {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-logo-img {
+  max-width: 150px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo-img:hover {
+  transform: scale(1.05);
+}
+
+.partner-content {
+  flex: 1;
+}
+
+.travel-partner-title {
+  font-family: "Yesteryear", cursive;
+  color: #f97316;
+  font-size: 28px;
+}
+
+.travel-partner-description {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.partner-name {
+  color: #f97316;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: antiquewhite;
+  transition: all 0.3s ease;
+}
+
+.partner-name:hover {
+  color: #d65f0f;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .travel-partner-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .partner-content {
+    max-width: 100%;
+  }
+}
+
+
+
+/* feturedestination css */
+.featured-destinations .carousel-inner {
+  min-height: 250px;
+}
+
+.destination-card .destination-image {
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.destination-card:hover > div {
+  opacity: 1 !important;
+  pointer-events: auto;
+}
+
+

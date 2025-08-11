@@ -1,0 +1,92 @@
+/* FAbout section */
+
+.about-section {
+    background-color: #fff;
+  }
+  
+  .text-orange {
+    color: #fd6e00;
+  }
+  
+  .brand-text {
+    font-family: 'Yesteryear', cursive;
+    color: #fd6e00;
+  }
+  
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .about-right-txt{
+    font-size: 14px;
+    color: #4F545A;
+    line-height: 1.6rem;
+    font-weight: 400;
+  }
+
+  /* Founder Section */
+
+  .founder-section {
+    background-color: #00000008;
+  }
+  .founder-card{
+    background-color: #ede3e308;
+    border: none;
+  }
+  
+  .founder-img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 230px;
+  }
+  
+  .social-icons {
+    top: 10%;
+    left: -30px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 8px 5px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-icons a {
+    color: #fd6e00;
+    font-size: 16px;
+    margin: 6px 0;
+    transition: all 0.3s;
+    text-align: center;
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+  
+  .text-orange {
+    color: #fd6e00;
+  }
+  .founder-sec {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .vector-quote img {
+    width: 40px;
+    height: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .founder-sec {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .vector-quote {
+      margin-top: 10px;
+    }
+  }
+  
+  

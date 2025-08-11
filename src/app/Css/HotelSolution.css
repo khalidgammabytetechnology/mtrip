@@ -1,0 +1,178 @@
+/* HotelSolution.css */
+
+.hotel-section1 {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.intro-section1 {
+  background-color: #ffffff;
+}
+
+.text-orange {
+  color: #ff6600;
+}
+
+.brand-text {
+  color: #ff6600;
+}
+
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.card1 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card1:hover img {
+  transform: scale(1.03);
+}
+
+.card1 img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.hotel-section1 .row .col-lg-3:nth-child(5) {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.card1-body {
+  padding: 20px;
+  text-align: left;
+}
+
+.card1-body h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card1-body p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Typography */
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hotel-section1,
+  .intro-section1,
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+   .card1 img {
+    height: 180px;
+  }
+
+  .card1-body {
+    padding: 16px;
+  }
+
+  .card1-body h5 {
+    font-size: 16px;
+  }
+
+  .card1-body p {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+}
+
+
+
+.choose-texi1 {
+  background-color: #00000008;
+}
+
+.choose-right-txt {
+  text-align: left;
+}
+
+.choose-img1 {
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 30px;
+  height: 520px;
+  object-fit: cover;
+}
+
+.diamond-badge {
+  width: 120px;
+  height: 120px;
+  transform: rotate(45deg);
+  border-radius: 20px;
+  font-family: 'Dancing Script', cursive;
+  background-color: #f37023;
+}
+
+.badge-text {
+  transform: rotate(-45deg);
+  font-size: 1.5rem;
+  color: white;
+  width: 100px;
+}
+
+.choose-img-wrapper1 {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .choose-img-wrapper1 {
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+
+  .choose-img1 {
+    height: 60vh !important;
+    border-radius: 10px;
+  }
+
+  .diamond-badge {
+    margin-left: 30px;
+  }
+
+  .choose-right-txt {
+    margin-left: 30px;
+  }
+}
+

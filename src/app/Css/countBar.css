@@ -1,0 +1,42 @@
+.client-experience-bg {
+    background: linear-gradient(to right, #E4895D, #ff6b00);
+ 
+    border-radius: 24px;
+  }
+
+.fts-15 {
+  font-size: 15px;
+}
+
+.fts-16 {
+  font-size: 16px;
+}
+
+.fts-26 {
+  font-size: 26px;
+}
+
+.fts-42 {
+  font-size: 42px;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-7 {
+  font-weight: 700;
+  font-family: "Playfair", serif;
+}
+
+.white-color-L {
+  color: #ffffff;
+}
+
+.primary-color-L {
+  color: #000;
+}

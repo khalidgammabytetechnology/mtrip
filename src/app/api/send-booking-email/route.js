@@ -18,10 +18,10 @@ export async function POST(request) {
     const mailOptions = {
       from: process.env.ADMIN_EMAIL,
       to: process.env.ADMIN_EMAIL, // admin ko bhejna
-      subject: "New Booking Inquiry Received",
+      subject: "New in Inquiry From Website",
       html: `
         <h3>New Inquiry Details</h3>
-        <p><strong>Booking For:</strong> ${bookingItem || "N/A"}</p>
+        <p><strong>Booking For:</strong> ${bookingItem || "Mtrip"}</p>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Email:</strong> ${email}</p>

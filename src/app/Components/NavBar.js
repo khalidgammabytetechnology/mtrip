@@ -137,7 +137,7 @@ const NavBar = () => {
               >
                 Book Now <span className="ms-1">➤</span>
               </button>
-              <BookingPopup show={showModal} handleClose={handleClose} />
+              <BookingPopup show={showModal} handleClose={handleClose} bookingItem={"Mtrip"} />
             </div>
           )}
         </div>

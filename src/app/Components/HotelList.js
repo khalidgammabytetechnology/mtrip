@@ -35,7 +35,7 @@ const hotels = [
       "/Assets/08.jpg",
     ],
     rating: 5,
-    intervalDuration: 4000,
+    intervalDuration: 3000,
 
   },
   {
@@ -58,7 +58,7 @@ const hotels = [
       "/Assets/HotelAshram9.jpg",
     ],
     rating: 5,
-    intervalDuration: 3000,
+    intervalDuration: 2000,
 
   },
   {
@@ -83,7 +83,7 @@ const hotels = [
       "/Assets/HotelMLeaf9.jpg",
     ],
     rating: 5,
-    intervalDuration: 4000,
+    intervalDuration: 3000,
   },
   {
     name: "Hotel Maple Leaf BOPAL",
@@ -104,7 +104,7 @@ const hotels = [
       "/Assets/HotelMLeaf12.jpg",
     ],
     rating: 5,
-    intervalDuration: 3000,
+    intervalDuration: 2000,
   },
   {
     name: "Hotel Maple",
@@ -123,7 +123,7 @@ const hotels = [
 
     ],
     rating: 5,
-    intervalDuration: 5000,
+    intervalDuration: 3000,
   },
   {
     name: "MTRIP Hotel Ellis Bridge",
@@ -146,7 +146,7 @@ const hotels = [
 
     ],
     rating: 5,
-    intervalDuration: 3000,
+    intervalDuration: 2000,
   },
   {
     name: "Hotel Bilva Tree SCIENCITY",
@@ -168,7 +168,7 @@ const hotels = [
       
     ],
     rating: 5,
-    intervalDuration: 4000,
+    intervalDuration: 3000,
   },
 ];
 

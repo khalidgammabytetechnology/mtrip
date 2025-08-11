@@ -14,7 +14,7 @@ const bannerData = {
       "Book with MTrip today and start your journey with confidence, comfort, and unbeatable value.",
   },
   "/our-hotels": {
-    image: "/Assets/stayHotels.jpg",
+    image: "/Assets/stayHotels.jpeg",
     title: "Your perfect stay is just a click away.",
     description: "Choose your destination and book today!",
   },
@@ -27,7 +27,7 @@ const bannerData = {
     title: "Book a ride with MTrip Hotels & enjoy a hassle-free journey!",
   },
   "/about-us": {
-    image: "/Assets/stayAbout.jpg",
+    image: "/Assets/aaa.png",
     title: "Join the MTrip family and experience hospitality like never before!",
   },
   "/hotel-solution": {
@@ -81,7 +81,7 @@ const StayBanner = () => {
             )}
             
               <button className="stay-Bookbtn mt-3" onClick={handleShow}>
-                {pathname === "/hotel-solution" ? "Enquiry" : "Book Now"}
+                {pathname === "/hotel-solution" ? "Inquire Now" : "Book Now"}
               </button>
             
           </div>

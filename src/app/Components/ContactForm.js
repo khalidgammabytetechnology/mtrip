@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { FaUser, FaPhoneAlt, FaEnvelope, FaPaperPlane } from "react-icons/fa";
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import "../Css/Contact.css";
 
 const ContactForm = () => {
@@ -45,7 +46,7 @@ const ContactForm = () => {
     setTimeout(() => {
       setAlertMsg("");
       setAlertType("");
-    }, 3000);
+    }, 4000);
   };
 
   return (
@@ -131,7 +132,8 @@ const ContactForm = () => {
 
       {alertMsg && (
         <div className={`custom-alert-box ${alertType}`}>
-          <strong>{alertType === "success" ? "Success!" : "Error!"}</strong>{" "}
+          {alertType === "success" && <FaCheckCircle style={{ color: "green", marginRight: "8px" }} />}
+          {alertType === "error" && <FaTimesCircle style={{ color: "red", marginRight: "8px" }} />}
           {alertMsg}
         </div>
       )}

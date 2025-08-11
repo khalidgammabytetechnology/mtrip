@@ -3,7 +3,7 @@ import TopBar from "./Components/TopBar";
 import NavBar from "./Components/NavBar";
 
 export const metadata = {
-  title: "My Next App",
+  title: "Mtrip Hotels",
   description: "Travel website",
 };
 

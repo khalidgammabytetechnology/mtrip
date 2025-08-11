@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import {
   FaUser,
   FaPhoneAlt,
@@ -46,7 +47,7 @@ const BookingPopup = ({ show, handleClose, bookingItem }) => {
     } catch (err) {
       setAlertMsg("Error sending email.");
       setAlertType("error");
-      setTimeout(() => setAlertMsg(""), 3000);
+      setTimeout(() => setAlertMsg(""), 4000);
       handleClose();
     }
   };
@@ -123,8 +124,8 @@ const BookingPopup = ({ show, handleClose, bookingItem }) => {
 
       {alertMsg && (
         <div className={`custom-alert-box ${alertType}`}>
-          <strong>{alertType === "success" ? "Success!" : "Error!"}</strong>
-          {alertMsg}
+          {alertType === "success" && <FaCheckCircle style={{ color: "green", marginRight: "8px" }} />}
+          {alertType === "error" && <FaTimesCircle style={{ color: "red", marginRight: "8px" }} />}          {alertMsg}
         </div>
       )}
     </>

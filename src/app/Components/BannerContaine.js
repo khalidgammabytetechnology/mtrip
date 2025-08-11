@@ -79,7 +79,7 @@ const bannerSlides = [
   },
   {
     path: "/about-us",
-    image: "/Assets/About-Us.jpg",
+    image: "/Assets/About-Us.png",
     title: "About MTrip",
     subtitle: "Who We Are",
     text: "Discover our journey and values",

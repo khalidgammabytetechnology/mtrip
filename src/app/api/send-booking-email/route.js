@@ -6,7 +6,7 @@ export async function POST(request) {
     const { name, phone, email, message, bookingItem } = body;
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "smtp.hostinger.com",
       port: 465, // 587 bhi use ho sakta hai
       secure: true, // 465 ke liye true
       auth: {
@@ -18,7 +18,7 @@ export async function POST(request) {
     const mailOptions = {
       from: process.env.ADMIN_EMAIL,
       to: process.env.ADMIN_EMAIL, // admin ko bhejna
-      subject: "New in Inquiry From Website",
+      subject: "New Inquiry From Website",
       html: `
         <h3>New Inquiry Details</h3>
         <p><strong>Booking For:</strong> ${bookingItem || "Mtrip"}</p>

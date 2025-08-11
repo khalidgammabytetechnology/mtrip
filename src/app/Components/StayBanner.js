@@ -27,7 +27,7 @@ const bannerData = {
     title: "Book a ride with MTrip Hotels & enjoy a hassle-free journey!",
   },
   "/about-us": {
-    image: "/Assets/aaa.png",
+    image: "/Assets/aaa.jpeg",
     title: "Join the MTrip family and experience hospitality like never before!",
   },
   "/hotel-solution": {

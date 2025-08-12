@@ -14,14 +14,14 @@ const founders = [
     title: "Founder",
     description:
       "With a vision to redefine hospitality and travel, Naresh Patel founded MTrip Hotels & Tours in 2015. His extensive experience in the hotel and travel industry has been instrumental in establishing the brand as a trusted name.",
-    image: "/Assets/founder1.jpeg",
+    image: "/Assets/ff1.jpeg",
   },
   {
     name: "Prem Patel",
     title: "Co-Founder",
     description:
       "As the Co-Founder of MTrip Hotels & Tours, Prem Patel plays a key role in driving innovation and growth. With a strong background in travel management and customer service, he ensures that MTrip Hotels provides the best-in-class hospitality and tour experiences.",
-    image: "/Assets/founder2.jpg",
+    image: "/Assets/ff2.jpg",
   },
 ];
 
@@ -83,7 +83,7 @@ const AboutUs = () => {
       </section>
 
       {/* Founder Section */}
-      {/* <section className="founder-section py-5">
+      <section className="founder-section py-5">
         <div className="container">
           <div className="row justify-content-center g-4">
             {founders.map((founder, idx) => (
@@ -122,7 +122,7 @@ const AboutUs = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
       <Counter/>
       <StayBanner />
       <Footer2 />

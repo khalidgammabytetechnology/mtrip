@@ -108,7 +108,7 @@ const AboutUs = () => {
                       </div>
                       <div className="vector-quote">
                         <Image
-                          src="/Assets/vector.png"
+                          src="/Assets/Vector.png"
                           alt="Quote Icon"
                           width={24}
                           height={24}

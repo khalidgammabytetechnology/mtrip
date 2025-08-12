@@ -19,7 +19,7 @@ export const metadata = {
     "hotel solutions"
   ],
   icons: {
-    icon: "/Assets/favicon.ico"
+    icon: "/favicon.ico"
   },
 };
 

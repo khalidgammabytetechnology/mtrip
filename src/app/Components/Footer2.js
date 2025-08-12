@@ -70,7 +70,7 @@ const Footer2 = () => {
             </p>
             <p>
               <FaEnvelope className="contact-icon me-2" />
-              <span className="sub-text">mtriphotels@gmail.com</span>
+              <span className="sub-text">info@mtriphotels.com</span>
             </p>
             <p>
               <FaPhoneAlt className="contact-icon me-2" />

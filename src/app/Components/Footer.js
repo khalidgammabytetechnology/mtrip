@@ -89,7 +89,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 col-12">
             <h5 className="mb-4 fw-bold">Contact Info</h5>
             <p><FaMapMarkerAlt className="contact-icon me-2" /><span className="sub-text">1107 - A, 11 Floor, Sinergy Tower, Corporate road, Nr Vodafone house, Ahmedabad - 380015</span></p>
-            <p><FaEnvelope className="contact-icon me-2" /><span className="sub-text">mtriphotels@gmail.com</span></p>
+            <p><FaEnvelope className="contact-icon me-2" /><span className="sub-text">info@mtriphotels.com</span></p>
             <p><FaPhoneAlt className="contact-icon me-2" /><span className="sub-text">+91 8949412005, +91 9662263769</span></p>
           </div>
 

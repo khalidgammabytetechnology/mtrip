@@ -85,6 +85,7 @@ const Footer2 = () => {
             <p className="mb-0">
               &copy; {new Date().getFullYear()} MTrip. All rights reserved.
               Powered by{" "}
+              <span className="d-block d-md-inline">
               <a
                 href="https://gammabytetechnology.com/"
                 target="_blank"
@@ -93,8 +94,8 @@ const Footer2 = () => {
                 style={{ color: "black" }}
               >
                 Gamma Byte Technology
-              </a>
-              .
+              </a>.
+              </span>
             </p>
           </div>
 

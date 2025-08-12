@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import TopBar from "./Components/TopBar";
 import NavBar from "./Components/NavBar";
+import WhatsAppButton from './Components/WhatsAppButton';
 
 export const metadata = {
   title: "MTrip Hotels – Exceptional Hospitality & Travel Solutions",
@@ -73,6 +74,7 @@ export default function Layout({ children }) {
         <TopBar />
         <NavBar />
         {children}
+        <WhatsAppButton/>
       </body>
     </html>
   );

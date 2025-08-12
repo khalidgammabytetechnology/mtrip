@@ -84,8 +84,8 @@ const Footer2 = () => {
           <div className="col-md-6 col-12 text-start">
             <p className="mb-0">
               &copy; {new Date().getFullYear()} MTrip. All rights reserved.
-              Powered by{" "}
               <span className="d-block d-md-inline">
+                Powered by{" "}
               <a
                 href="https://gammabytetechnology.com/"
                 target="_blank"

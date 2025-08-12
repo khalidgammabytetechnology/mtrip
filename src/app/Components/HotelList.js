@@ -109,7 +109,7 @@ const hotels = [
   {
     name: "Hotel Maple",
     location: "Bopal, Ahmedabad",
-    mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14687.446138875523!2d72.45660407194097!3d23.02885571670793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b98caee7edf%3A0x4d638447ee504496!2sBopal%2C%20Ahmedabad%2C%20Gujarat%20380058!5e0!3m2!1sen!2sin!4v1752502332539!5m2!1sen!2sin",
+    mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.7939413042036!2d72.4706376!3d23.031336900000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b800e4ba6c5%3A0x63cc31126fed77d4!2sHotel%20Maple!5e0!3m2!1sen!2sin!4v1754981966965!5m2!1sen!2sin",
     email: "hotelmaple2022@gmail.com",
     phone1: "+91 74878 94242",
     images: [

@@ -117,8 +117,9 @@ const Footer = () => {
         <div className="row mt-4">
           <div className="col-md-6 col-12 text-start">
             <p className="mb-0">
-              &copy; {new Date().getFullYear()} MTrip. All rights reserved. Powered by{" "}
+              &copy; {new Date().getFullYear()} MTrip. All rights reserved.
               <span className="d-block d-md-inline">
+                 Powered by{" "}
               <a href="https://gammabytetechnology.com/" target="_blank" rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#01AEDA" }}>
                 Gamma Byte Technology
               </a>.

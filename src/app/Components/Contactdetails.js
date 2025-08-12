@@ -18,7 +18,7 @@ const ContactDetails = () => {
           <span className="icon-box me-2 rounded">
             <FaEnvelope />
           </span>
-          mtriphotels@gmail.com
+          info@mtriphotels.com
         </p>
         <p className="d-flex align-items-center contact-item">
           <span className="icon-box me-2 rounded">

@@ -1,12 +1,12 @@
 .contact-top-section {
   display: flex;
-  max-width: 1500;
+  max-width: 1400;
   width: 98%;
   margin: 0 auto;
   position: relative;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding-top: 10px;
   gap: 0px;
   flex-wrap: wrap;
 }

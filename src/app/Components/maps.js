@@ -24,6 +24,14 @@ const locations = [
     city: "Hotel Maple-Ahmedabad",
     url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.0446841816274!2d72.43781057513938!3d22.985384279199927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e99aeec159135%3A0xc33f8aac370d8301!2sSarkhej%20-%20Sanand%20Rd%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1752151254327!5m2!1sen!2sin",
   },
+  {
+    city: "Hotel Ellis Bridge-Ahmedabad",
+    url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9808809808715!2d72.5710288!3d23.0244742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8586494c67c7%3A0x20ce14fdf66763d7!2smtrip%20hotel!5e0!3m2!1sen!2sin!4v1754980889604!5m2!1sen!2sin",
+  },
+  {
+    city: "Hotel Bilva Tree SCIENCITY",
+    url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.4740834135937!2d72.5017969!3d23.079734999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9d023b7ee6b1%3A0xdffa55e0401f0957!2sHOTEL%20BILVA%20TREE!5e0!3m2!1sen!2sin!4v1754980954930!5m2!1sen!2sin",
+  },
 ];
 
 const Maps = () => {

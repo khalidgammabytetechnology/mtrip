@@ -12,19 +12,19 @@ const ContactDetails = () => {
           <span className="icon-box me-2 rounded">
             <FaPhoneAlt />
           </span>
-          +91 7490013769 , +91 9662263769
+          +91 8949412005 , +91 9662263769
         </p>
         <p className="d-flex align-items-center contact-item">
           <span className="icon-box me-2 rounded">
             <FaEnvelope />
           </span>
-          hotelmtripcare24@gmail.com
+          mtriphotels@gmail.com
         </p>
         <p className="d-flex align-items-center contact-item">
           <span className="icon-box me-2 rounded">
             <FaMapMarkerAlt />
           </span>
-          401 Devnandan Mall, Ashram Road, Ahmedabad
+          1107 - A, 11 Floor, Sinergy Tower, Corporate road, Nr Vodafone house, Ahmedabad - 380015
         </p>
       </div>
     </div>

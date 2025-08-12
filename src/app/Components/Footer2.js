@@ -91,7 +91,7 @@ const Footer2 = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none"
-                style={{ color: "black" }}
+                style={{ color: "blue" }}
               >
                 Gamma Byte Technology
               </a>.

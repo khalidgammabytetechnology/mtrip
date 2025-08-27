@@ -170,6 +170,34 @@ const hotels = [
     rating: 5,
     intervalDuration: 3000,
   },
+  {
+    name: "The Melberry Villas",
+    location:
+      "Kalhar Blues and Greens, Ahmedabad",
+    mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3945644638957!2d72.3668321751401!3d23.009280679183107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e98c421d5d1a1%3A0x33cac90eeba02bbb!2sKalhaar%20Blues%20%26%20Greens%20Golf%20Club%20(KBG%20CLUB)!5e0!3m2!1sen!2sin!4v1756293658471!5m2!1sen!2sin",
+    email: "melberryvillas640@gmail.com",
+    phone1: "+91 9664506669",
+    images: [
+      "/Assets/1P.jpg",
+      "/Assets/2P.jpg",
+      "/Assets/3P.jpg",
+      "/Assets/4P.jpg",
+      "/Assets/5P.jpg",
+      "/Assets/6P.jpg",
+      "/Assets/7P.jpg",
+      "/Assets/8P.jpg",
+      "/Assets/9P.jpg",
+      "/Assets/10P.jpg",
+      "/Assets/11P.jpg",
+      "/Assets/12P.jpg",
+      "/Assets/13P.jpg",
+      "/Assets/14P.jpg",
+      "/Assets/15P.jpg",
+      
+    ],
+    rating: 5,
+    intervalDuration: 3000,
+  },
 ];
 
 const HotelCard = ({ hotel }) => {

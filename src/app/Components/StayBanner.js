@@ -7,7 +7,7 @@ import "../Css/HeroSection.css";
 import BookingPopup from "./BookingPopup";
 
 const bannerData = {
-  "/": {
+  "/home": {
     image: "/Assets/stayHome.jpg",
     title: "Your Perfect Stay Is Just A Click Away",
     description:
@@ -30,7 +30,7 @@ const bannerData = {
     image: "/Assets/aaa.jpeg",
     title: "Join the MTrip family and experience hospitality like never before!",
   },
-  "/hotel-solution": {
+  "/": {
     image: "/Assets/getin.jpeg",
     title: "📞 Get in Touch with Us",
     description: "We look forward to partnering with your hotel to deliver excellence in every room. Whether you’re furnishing a new property or upgrading your current setup, MTRIP Hotel Solution is here to serve you with professionalism and care.",
@@ -81,7 +81,7 @@ const StayBanner = () => {
             )}
             
               <button className="stay-Bookbtn mt-3" onClick={handleShow}>
-                {pathname === "/hotel-solution" ? "Inquire Now" : "Book Now"}
+                {pathname === "/" ? "Inquire Now" : "Book Now"}
               </button>
             
           </div>

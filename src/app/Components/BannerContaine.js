@@ -10,7 +10,7 @@ import "../Css/BannerContaine.css";
 const bannerSlides = [
   // Home page slides (5)
   {
-    path: "/",
+    path: "/home",
     image: "/Assets/01.jpg",
     maintitle: "Explore the World",
     title: "Welcome To MTrip Hotels",
@@ -18,7 +18,7 @@ const bannerSlides = [
     text: "Exceptional Hospitality, Seamless Travel, & Premium Stays",
   },
   {
-    path: "/",
+    path: "/home",
     image: "/Assets/HotelMapleInn.jpg",
     maintitle: "Explore the World",
     title: "Welcome To MTrip Hotels",
@@ -26,7 +26,7 @@ const bannerSlides = [
     text: "Exceptional Hospitality, Seamless Travel, & Premium Stays",
   },
   {
-    path: "/",
+    path: "/home",
     image: "/Assets/HotelMLeaf3.jpg",
     maintitle: "Explore the World",
     title: "Welcome To MTrip Hotels",
@@ -34,7 +34,7 @@ const bannerSlides = [
     text: "Exceptional Hospitality, Seamless Travel, & Premium Stays",
   },
   {
-    path: "/",
+    path: "/home",
     image: "/Assets/Hotelbg.jpg",
     maintitle: "Explore the World",
     title: "Welcome To MTrip Hotels",
@@ -42,7 +42,7 @@ const bannerSlides = [
     text: "Exceptional Hospitality, Seamless Travel, & Premium Stays",
   },
   {
-    path: "/",
+    path: "/home",
     image: "/Assets/HotelMLeaf8.jpg",
     maintitle: "Explore the World",
     title: "Welcome To MTrip Hotels",
@@ -72,7 +72,7 @@ const bannerSlides = [
     text: "Get to your destination safely and on time",
   },
   {
-    path: "/hotel-solution",
+    path: "/",
     image: "/Assets/solutionbg.jpg",
     title: "Welcome to MTRIP Hotel Solution",
     subtitle: "Your Trusted Partner in Premium Hotel Linen & Guest Room Amenities",
@@ -103,7 +103,7 @@ const BannerContaine = () => {
   const currentSlide = pageSlides[currentIndex] || pageSlides[0];
 
   useEffect(() => {
-    if (pathname === "/") {
+    if (pathname === "/home") {
       const interval = setInterval(() => {
         setCurrentIndex((prev) => (prev + 1) % pageSlides.length);
       }, 4000);
@@ -145,7 +145,7 @@ const BannerContaine = () => {
         <h4 className="fw-semibold mb-3">{currentSlide.subtitle}</h4>
 
         {currentSlide.text && <p className="mb-4">{currentSlide.text}</p>}
-        {pathname !== "/hotel-solution" && (
+        {pathname !== "/" && (
           <div className="d-flex justify-content-center gap-3 flex-wrap">
             <Link href="/our-hotels" passHref>
               <button className="bookStay-btn px-4 py-2 text-white fw-semibold">

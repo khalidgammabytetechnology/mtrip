@@ -39,7 +39,7 @@ const NavBar = () => {
       <div className="container d-flex justify-content-between align-items-center navbar-content">
         <Link
           className="navbar-brand fw-bold text-warning fs-4 d-flex align-items-center gap-2"
-          href="/"
+          href="/home"
         >
           <Image
             src="/Assets/logo.png"
@@ -67,10 +67,11 @@ const NavBar = () => {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3 text-center">
             {/* <li className="nav-item">
               <Link
-                href="/"
-                className={`nav-link ${isActive("/") ? "active" : ""}`}
+                href="/home"
+                className={`nav-link ${isActive("/home") ? "active" : ""}`}
                 onClick={() => setMenuOpen(false)}
               >
+              Home
               </Link>
             </li> */}
             <li className="nav-item">
@@ -102,8 +103,8 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                href="/hotel-solution"
-                className={`nav-link ${isActive("/hotel-solution") ? "active" : ""}`}
+                href="/"
+                className={`nav-link ${isActive("/") ? "active" : ""}`}
                 onClick={() => setMenuOpen(false)}
               >
                 Hotel Solution

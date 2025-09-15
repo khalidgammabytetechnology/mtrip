@@ -14,7 +14,7 @@ const founders = [
     title: "Founder",
     description:
       "With a vision to redefine hospitality and travel, Naresh Patel founded MTrip Hotels & Tours in 2015. His extensive experience in the hotel and travel industry has been instrumental in establishing the brand as a trusted name.",
-    image: "/Assets/ff1.jpeg",
+    image: "/Assets/ff3.png",
   },
   {
     name: "Prem Patel",

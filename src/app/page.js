@@ -137,12 +137,13 @@
 
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import BannerContaine from "./Components/BannerContaine";
 import StayBanner from "./Components/StayBanner";
 import Footer from "./Components/Footer";
 import Image from "next/image";
 import "../app/Css/HotelSolution.css";
+import BookingPopup from "./Components/BookingPopup";
 
 const data = [
   {
@@ -256,6 +257,11 @@ const Section = ({ title, description, sectionTitle, items }) => (
 );
 
 const HotelSolution = () => {
+  const [showBooking, setShowBooking] = useState(false);
+
+  const handleShow = () => setShowBooking(true);
+  const handleClose = () => setShowBooking(false);
+
   return (
     <div>
       <BannerContaine />
@@ -277,6 +283,89 @@ const HotelSolution = () => {
           </p>
         </div>
       </section>
+
+      {/* ================= Dear Hotel Owner Section ================= */}
+<section className="dear-owner-section py-5">
+  <div className="container">
+    <h3 className="Pms fw-bold mb-5 text-center text-orange">Property Management System</h3>
+    <div className="row align-items-center">
+      {/* Left Images */}
+      <div className="col-lg-6 text-center mb-4 mb-lg-0">
+        <img
+          src="/Assets/DB.png"
+          alt="Our Product Header"
+          className="product-header-img img-fluid"
+        />
+      </div>
+
+      {/* Right Text */}
+      <div className="col-lg-6 text-center text-lg-start">
+        <h2 className="dear-title mb-3">DEAR HOTEL OWNER</h2>
+        <div className="feature-text mb-3">
+          The hotel PMS system you’ve been looking for—cloud-backed,
+          mobile-first, and built for owners who hate complexity. If you’re sick and
+          tired of software that’s too expensive or needs a rocket scientist to run,
+          keep reading. Because what you’re about to discover will save your time,
+          money, and headaches—and keep every bit of your data securely backed up to
+          the cloud. Now you can track operations from your phone, whether you’re in
+          the office or on vacation.
+        </div>
+        <hr />
+        <div className="feature-text mb-3">
+          Our cloud-based hotel management system and property management
+          software for hotels of all sizes—no rocket science required.
+        </div>
+        <button
+          className="btn px-4 py-2 fw-semibold demo-btn" onClick={handleShow}
+        >
+          Request a Free Demo
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* ================= Why Hoteliers Love Us Section ================= */}
+<section className="why-hoteliers-section py-5 bg-light">
+  <div className="container text-center">
+    <h3 className="section-title mb-5">Why Hoteliers Love Us</h3>
+    <div className="row g-4 justify-content-center">
+      {[
+        {
+          img: "/Assets/DB1.png",
+          title: "Desktop-Based + Mobile Access",
+          desc: "Your hotel management is always at your fingertips.",
+        },
+        {
+          img: "/Assets/DB2.png",
+          title: "Pathik - Automation",
+          desc: "No more wasting time on filing guest entry on PATHIK portal.",
+        },
+        {
+          img: "/Assets/DB3.png",
+          title: "Auto Document Scan",
+          desc: "You no longer need to type name, address & other details for each guest.",
+        },
+        {
+          img: "/Assets/DB4.png",
+          title: "Cloud Data Backup",
+          desc: "No more worrying about losing data. Your records are safe, secure, and always accessible.",
+        },
+      ].map((item, idx) => (
+        <div className="col-12 col-sm-6 col-lg-3" key={idx}>
+          <div className="feature-card1 h-100 text-center p-4 shadow-sm border-0">
+            <div className="icon-blob mx-auto mb-3">
+              <img src={item.img} alt={item.title} className="img-fluid" />
+            </div>
+            <h5 className="fw-bold mb-2">{item.title}</h5>
+            <p className="text-muted small mb-0">{item.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {data.map((section, idx) => (
         <Section key={idx} {...section} />
@@ -354,6 +443,7 @@ const HotelSolution = () => {
               </div>
             </div>
           </div>
+          <BookingPopup show={showBooking} handleClose={handleClose} />
         </div>
       </section>
       <StayBanner />

@@ -176,3 +176,91 @@
   }
 }
 
+/* Dear Hotel Owner Section */
+.Pms{
+  color: #ff6600; /* theme orange */
+  font-size: 34px;
+}
+.dear-owner-section {
+  background: #f9fafc;
+}
+
+.dear-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff7a00; /* theme orange */
+}
+
+.feature-text {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.product-header-img {
+  max-width: 100%;
+  width: auto; /* pehle 300 ya default hoga — ise bada kar diya */
+  height: auto;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .product-header-img {
+    width: 500px; /* large screen par aur bada */
+  }
+}
+
+.product-header-img:hover {
+  transform: scale(1.05); /* thoda hover effect bhi ache look ke liye */
+}
+
+.demo-btn{
+  border-color: #ff6600;
+  color: #ff6600;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.demo-btn:hover {
+  background-color: #ff6600;
+  border-color: #ff6600;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .demo-btn {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+/* Why Hoteliers Love Us Section */
+.why-hoteliers-section {
+  background: #f9fafc;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}
+
+.feature-card1 {
+  background: #fff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon-blob img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
